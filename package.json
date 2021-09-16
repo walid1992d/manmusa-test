@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\"  \"npm run client\" ",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "deploy": "npm i && cd frontend && npm i && cd../ && npm run dev"
+    "start": "npm i && cd frontend && npm i && cd../ && npm run dev"
   },
   "keywords": [],
   "author": "",
